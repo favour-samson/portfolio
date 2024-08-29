@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/project1.png";
 import editor from "../../Assets/Projects/project2.png";
 import chatify from "../../Assets/Projects/project3.png";
+import polis from "../../Assets/Projects/polis.png";
 import suicide from "../../Assets/Projects/project4.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
@@ -21,6 +20,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={polis}
+              isBlog={false}
+              title="Polis"
+              description="Our real estate platform transforms the way you rent, buy, and list properties. With an intuitive interface, users can effortlessly manage property listings, whether it's for long-term rentals, purchases, or short-term stays. We offer a seamless experience that caters to all real estate needs, ensuring that both property owners and seekers find the perfect match with ease"
+              ghLink=""
+              demoLink="https://polis.ng"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
