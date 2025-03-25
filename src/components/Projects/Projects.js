@@ -7,6 +7,7 @@ import editor from "../../Assets/Projects/project2.png";
 import chatify from "../../Assets/Projects/project3.png";
 import polis from "../../Assets/Projects/polis.png";
 import suicide from "../../Assets/Projects/project4.png";
+import pacDashboard from "../../Assets/Projects/pac.png";
 
 function Projects() {
   return (
@@ -38,6 +39,17 @@ function Projects() {
               description="Hoobank revolutionizes how you manage credit cards. Our expert team uses a cutting-edge methodology to identify the cards that best suit your financial needs. We analyze factors such as annual percentage rates and fees to help you make informed decisions and maximize your financial potential."
               ghLink="https://github.com/favour-samson/hook-bank"
               demoLink="https://hookbank-ui.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pacDashboard}
+              isBlog={false}
+              title="PAC Admin Dashboard"
+              description="The PAC Admin Dashboard provides a seamless way to manage financial investments, track transactions, and oversee user activities. With a clean and intuitive interface, admins can monitor investment portfolios, manage product categories, and gain insights into user engagement. The dashboard ensures efficient financial management, making it easier to oversee assets and transactions in real time."
+              ghLink=""
+              demoLink="https://admin-asset-dashboard.vercel.app/categories"
             />
           </Col>
 
