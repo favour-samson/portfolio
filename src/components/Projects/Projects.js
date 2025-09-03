@@ -6,6 +6,10 @@ import emotion from "../../Assets/Projects/project1.png";
 import editor from "../../Assets/Projects/project2.png";
 import chatify from "../../Assets/Projects/project3.png";
 import polis from "../../Assets/Projects/polis.png";
+import combattix from "../../Assets/Projects/combattix.png";
+import springlanenursery from "../../Assets/Projects/springlane.png";
+import trukey from "../../Assets/Projects/trukey.png";
+import ideaallies from "../../Assets/Projects/ideaallies.png";
 import suicide from "../../Assets/Projects/project4.png";
 import pacDashboard from "../../Assets/Projects/pac.png";
 
@@ -33,6 +37,46 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={combattix}
+              isBlog={false}
+              title="Combattix"
+              description="Combattix provides a seamless platform for combat sports ticketing and event management. Fans can easily purchase and access tickets, while fighters and promoters benefit from streamlined event organization and audience engagement. With a clean and intuitive interface, Combattix eliminates messy links, last-minute DMs, and outdated processes—ensuring a modern, hassle-free experience for the entire combat sports community."
+              ghLink=""
+              demoLink="https://www.combattix.com/"
+            />
+          </Col>{" "}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={springlanenursery}
+              isBlog={false}
+              title="Springlane"
+              description="Spring Lane Nursery provides a warm, safe, and inspiring early education environment for children aged 3 months to 5 years. Situated in Croydon, the nursery nurtures confident, curious learners through purposeful play based on the Early Years Foundation Stage (EYFS) framework. With a strong focus on building relationships, developing independence, and offering extended care options like breakfast and after-hours clubs, it supports families and helps young children thrive."
+              ghLink=""
+              demoLink="https://www.springlanenursery.co.uk/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={trukey}
+              isBlog={false}
+              title="TruKey"
+              description="TruKey Property delivers purpose-driven, fully managed housing solutions across London and surrounding counties. Tailored to the needs of councils, insurers, landlords—and the people they support—the platform ensures safe, compliant, and ready-to-live-in accommodations. With rapid placements, guaranteed rent options, and all safety checks professionally handled, TruKey bridges the gap between urgent housing needs and stable, dignified living arrangements."
+              ghLink=""
+              demoLink="https://www.trukeyproperty.co.uk/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ideaallies}
+              isBlog={false}
+              title="Idea allies"
+              description="Idea Allies is your launchpad from concept to startup reality—offering full-cycle support for founders at every stage. As both a startup accelerator and creative agency, they help validate ideas, design intuitive products, and scale with confidence through strategy, branding, MVP development, go-to-market planning, and post-launch support. With flexible engagement models—either service-based or equity-driven—and a founder-first mindset, Idea Allies is less of a vendor and more of a true strategic partner."
+              ghLink=""
+              demoLink="https://www.ideaallies.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={chatify}
               isBlog={false}
               title="HookBank"
@@ -41,7 +85,6 @@ function Projects() {
               demoLink="https://hookbank-ui.vercel.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pacDashboard}
@@ -52,7 +95,6 @@ function Projects() {
               demoLink="https://admin-asset-dashboard.vercel.app/categories"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
@@ -63,7 +105,6 @@ function Projects() {
               demoLink="https://tablecloth-finance-ui.vercel.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
@@ -74,7 +115,6 @@ function Projects() {
               demoLink="https://furnishop-lilac.vercel.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
