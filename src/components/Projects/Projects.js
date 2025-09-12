@@ -12,6 +12,7 @@ import trukey from "../../Assets/Projects/trukey.png";
 import ideaallies from "../../Assets/Projects/ideaallies.png";
 import suicide from "../../Assets/Projects/project4.png";
 import pacDashboard from "../../Assets/Projects/pac.png";
+import impact from "../../Assets/Projects/impact.png";
 
 function Projects() {
   return (
@@ -53,6 +54,16 @@ function Projects() {
               description="Spring Lane Nursery provides a warm, safe, and inspiring early education environment for children aged 3 months to 5 years. Situated in Croydon, the nursery nurtures confident, curious learners through purposeful play based on the Early Years Foundation Stage (EYFS) framework. With a strong focus on building relationships, developing independence, and offering extended care options like breakfast and after-hours clubs, it supports families and helps young children thrive."
               ghLink=""
               demoLink="https://www.springlanenursery.co.uk/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={impact}
+              isBlog={false}
+              title="Evolution Impact Initiative"
+              description="Evolution Impact Initiative CIC is a community-driven organisation based in Medway, Kent. Our mission is to support young people, families, and vulnerable groups through programs that build skills, improve wellbeing, and strengthen community bonds. We believe every individual deserves the chance to thrive. By combining sport, education, creativity, and social support, we're shaping a stronger, more connected community."
+              ghLink=""
+              demoLink="https://www.evolutionimpactinitiative.co.uk/"
             />
           </Col>
           <Col md={4} className="project-card">
