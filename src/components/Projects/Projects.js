@@ -9,6 +9,7 @@ import polis from "../../Assets/Projects/polis.png";
 import combattix from "../../Assets/Projects/combattix.png";
 import springlanenursery from "../../Assets/Projects/springlane.png";
 import trukey from "../../Assets/Projects/trukey.png";
+import elevation from "../../Assets/Projects/elevation.png";
 import ideaallies from "../../Assets/Projects/ideaallies.png";
 import suicide from "../../Assets/Projects/project4.png";
 import pacDashboard from "../../Assets/Projects/pac.png";
@@ -74,6 +75,16 @@ function Projects() {
               description="TruKey Property delivers purpose-driven, fully managed housing solutions across London and surrounding counties. Tailored to the needs of councils, insurers, landlords—and the people they support—the platform ensures safe, compliant, and ready-to-live-in accommodations. With rapid placements, guaranteed rent options, and all safety checks professionally handled, TruKey bridges the gap between urgent housing needs and stable, dignified living arrangements."
               ghLink=""
               demoLink="https://www.trukeyproperty.co.uk/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={elevation}
+              isBlog={false}
+              title="Elevation Mentorship"
+              description="Elevation Mentorship is a coaching and personal development platform designed to help individuals unlock their potential. The website provides mentorship in finance, business, health, and personal well-being, while also fostering a supportive community for learning and growth. Through structured programs and expert guidance, it empowers people to achieve personal and professional success."
+              ghLink=""
+              demoLink="https://www.elevationmentorship.co.uk/"
             />
           </Col>
           <Col md={4} className="project-card">
