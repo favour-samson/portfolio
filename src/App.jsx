@@ -222,7 +222,7 @@ const About = () => {
 
           <div className="space-y-6">
             <p className="text-lg text-gray-700 dark:text-gray-300">
-              I'm a passionate frontend developer with over 5 years of
+              I'm a passionate frontend developer with over 2 years of
               experience building modern web applications. My journey in web
               development started with a curiosity about how websites work, and
               it has evolved into a career dedicated to creating exceptional
