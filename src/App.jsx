@@ -27,6 +27,7 @@ import ideaallies from "./Assets/Projects/ideaallies.png";
 import suicide from "./Assets/Projects/project4.png";
 import pacDashboard from "./Assets/Projects/pac.png";
 import impact from "./Assets/Projects/impact.png";
+import fashionhub from "./Assets/Projects/fashionhub.png";
 import user from "./Assets/DP.jpeg";
 
 // Navigation Component
@@ -351,6 +352,21 @@ const Projects = () => {
       image: combattix,
       github: "",
       live: "https://www.combattix.com/",
+    },
+    {
+      title: "Fashion Hub",
+      description:
+        "A multi-vendor fashion e-commerce platform where vendors can list and manage clothing products, cart management, Paystack payment integration, and a full admin dashboard for overseeing vendors, orders, and platform analytics.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "GraphQL",
+        "MongoDB",
+        "Tailwind CSS",
+      ],
+      image: fashionhub,
+      github: "",
+      live: "https://fashion-hub-shop.vercel.app/",
     },
     {
       title: "Springlane Nursery",
