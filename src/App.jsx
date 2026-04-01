@@ -28,7 +28,7 @@ import suicide from "./Assets/Projects/project4.png";
 import pacDashboard from "./Assets/Projects/pac.png";
 import impact from "./Assets/Projects/impact.png";
 import fashionhub from "./Assets/Projects/fashionhub.png";
-import user from "./Assets/DP.jpeg";
+import user from "./Assets/dp.jpeg";
 
 // Navigation Component
 const Navigation = ({ darkMode, toggleDarkMode }) => {
