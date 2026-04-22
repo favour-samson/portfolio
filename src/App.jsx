@@ -263,11 +263,11 @@ const Skills = () => {
     {
       title: "Frontend",
       skills: [
-        { name: "React", level: 95 },
+        { name: "React / Next.js", level: 95 },
         { name: "TypeScript", level: 90 },
         { name: "JavaScript", level: 95 },
-        { name: "Next.js", level: 85 },
-        { name: "HTML/CSS", level: 95 },
+        { name: "Tailwind CSS", level: 90 },
+        { name: "HTML / CSS", level: 95 },
       ],
     },
     {
@@ -281,23 +281,13 @@ const Skills = () => {
       ],
     },
     {
-      title: "Styling",
-      skills: [
-        { name: "Tailwind CSS", level: 90 },
-        { name: "CSS-in-JS", level: 85 },
-        { name: "SCSS/SASS", level: 80 },
-        { name: "Responsive Design", level: 95 },
-        { name: "Animation", level: 80 },
-      ],
-    },
-    {
-      title: "Tools & Others",
+      title: "Tools & Cloud",
       skills: [
         { name: "Git & GitHub", level: 90 },
-        { name: "Webpack/Vite", level: 75 },
-        { name: "REST APIs", level: 85 },
-        { name: "Testing (Jest)", level: 80 },
-        { name: "Figma", level: 85 },
+        { name: "Redux Toolkit", level: 85 },
+        { name: "GCP", level: 40 },
+        { name: "Figma", level: 80 },
+        { name: "Webpack / Vite", level: 75 },
       ],
     },
   ];
@@ -323,6 +313,11 @@ const Skills = () => {
                     <div className="flex justify-between mb-2">
                       <span className="text-gray-700 dark:text-gray-300 font-medium">
                         {skill.name}
+                        {skill.name === "GCP" && (
+                          <span className="text-xs text-yellow-500 dark:text-yellow-400 font-medium ml-2">
+                            Learning
+                          </span>
+                        )}
                       </span>
                       <span className="text-primary-600 dark:text-primary-400 font-medium">
                         {skill.level}%
