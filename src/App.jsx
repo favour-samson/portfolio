@@ -150,12 +150,14 @@ const Hero = () => {
             </span>
           </h1>
           <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-400 mb-8">
-            Frontend Developer | React Specialist | UI/UX Enthusiast
+            Full Stack Developer | React/Next.js Specialist | GraphQL/Node
+            js/Express js & MongoDB
           </p>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-12">
-            I craft beautiful, responsive, and user-friendly web applications
-            with modern technologies. Passionate about creating seamless digital
-            experiences.
+            I build scalable, production-grade web applications end-to-end —
+            from pixel-perfect UIs to robust APIs and databases. Passionate
+            about clean architecture, seamless user experiences, and continuous
+            growth.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
@@ -223,17 +225,18 @@ const About = () => {
 
           <div className="space-y-6">
             <p className="text-lg text-gray-700 dark:text-gray-300">
-              I'm a passionate frontend developer with over 2 years of
-              experience building modern web applications. My journey in web
-              development started with a curiosity about how websites work, and
-              it has evolved into a career dedicated to creating exceptional
-              user experiences.
+              I'm a full stack developer with 3+ years of experience building
+              production-grade web applications across fintech, e-commerce, real
+              estate, and SaaS domains. My stack spans React, Next.js, and
+              TypeScript on the frontend, with Node.js, GraphQL, Express, and
+              MongoDB powering the backend.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300">
-              I specialize in React, TypeScript, and modern CSS frameworks,
-              always staying up-to-date with the latest web technologies and
-              best practices. I believe in writing clean, maintainable code and
-              creating interfaces that are both beautiful and functional.
+              I've shipped platforms handling real users and real money —
+              integrating payment gateways like Paystack, designing role-based
+              systems, and building admin dashboards from scratch. I'm currently
+              expanding into cloud infrastructure with Google Cloud Platform
+              (GCP).
             </p>
 
             <div className="flex flex-wrap gap-3 pt-4">
@@ -265,6 +268,16 @@ const Skills = () => {
         { name: "JavaScript", level: 95 },
         { name: "Next.js", level: 85 },
         { name: "HTML/CSS", level: 95 },
+      ],
+    },
+    {
+      title: "Backend",
+      skills: [
+        { name: "Node.js / Express", level: 80 },
+        { name: "GraphQL / Apollo", level: 85 },
+        { name: "MongoDB", level: 80 },
+        { name: "REST APIs", level: 90 },
+        { name: "Paystack Integration", level: 85 },
       ],
     },
     {
@@ -774,7 +787,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-600 dark:text-gray-400 mb-4 md:mb-0">
-            © 2024 Samson Favour. All rights reserved.
+            © 2026 Samson Favour. All rights reserved.
           </p>
           <div className="flex gap-6">
             <a
